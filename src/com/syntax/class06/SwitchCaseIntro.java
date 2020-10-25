@@ -65,6 +65,14 @@ public class SwitchCaseIntro {
 			// break --> is optional since it is a last statement in the switch block
 		}
 		System.out.println("Today is " + today);
+		
+		boolean x = true;
+		boolean y = false;
+		if (x || y) {
+		System.out.println(true);
+		} else {
+		System.out.println(false);
+		}
 	}
 
 }

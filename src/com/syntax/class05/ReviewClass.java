@@ -20,5 +20,16 @@ public class ReviewClass {
 		} else {
 			System.out.println("Go to work");
 		}
-	}
+		
+	    boolean a, b, c;
+	     a = b = c = true;
+
+	          if( !a || ( b && c ) ) {
+	             System.out.println("If executed");
+	          } else {
+	             System.out.println("else executed");
+		
+		
+		
+	}}
 }
