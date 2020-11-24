@@ -3,6 +3,7 @@ package com.syntax.class11;
 public class AccessingAllvaluesFrom2Darray {
 
 	public static void main(String[] args) {
+
 		char[][] $array = new char[3][4];
 		// add values to first row
 		$array[0][0] = 'A';

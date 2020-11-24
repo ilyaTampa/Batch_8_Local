@@ -3,6 +3,7 @@ package com.syntax.class09;
 public class NestedLoopDemo {
 
 	public static void main(String[] args) {
+
 		for (int i = 0; i < 5; i++) {// outer loop
 
 			System.out.println("Hello");
@@ -98,4 +99,3 @@ public class NestedLoopDemo {
 		}
 	}
 }
-

@@ -14,25 +14,24 @@ public class Recap {
 		
 		Scanner input;
 		int money;
-		int waterPrice = 5; 
+		int waterPrice=5;
 		
-		input= new Scanner(System.in);
+		input=new Scanner(System.in);
+		System.out.println("Please pay for your water!");
+		money=input.nextInt();
 		
-		System.out.println("Please pay for you water");
-		money = input.nextInt();
-		
-		while (money!=waterPrice) {
+		while(money!=waterPrice) {
 			if (money>waterPrice) {
 				System.out.println("This is too much, you need to enter less money");
-				//money = input.nextInt();
+				//money =input.nextInt();
 			}else {
 				System.out.println("Water is expensive, please insert more money");
 				//money=input.nextInt();
 			}
-			money = input.nextInt();
+			
+			money=input.nextInt();
 		}
+
 		System.out.println("Enjoy your water");
-
 	}
-
 }

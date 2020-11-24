@@ -3,6 +3,7 @@ package com.syntax.class10;
 public class AllValuesFromArray {
 
 	public static void main(String[] args) {
+
 		String[] cars = { "Maserati", "Lamborgini", "Lexus", "Mercedes", "Infiniti", "Volkswagen" };
 
 		for (int a = 0; a < cars.length; a++) {
@@ -14,7 +15,7 @@ public class AllValuesFromArray {
 		System.out.println(" ---------   getting values from array using enhanced for loop --------- ");
 
 		/*
-		 * for (: name of the array)
+		 * for (: namef of the array)
 		 * 
 		 */
 
@@ -24,21 +25,21 @@ public class AllValuesFromArray {
 
 		System.out.println();
 		System.out.println(" ---------   getting values from array using enhanced for loop --------- ");
-
-		int[] numbers = { 10, 10, 90, 600, 89 };
-
-		for (int num : numbers) {
+		
+		int[] numbers= {10, 10, 90, 600, 89};
+		
+		for(int num :numbers) {
 			System.out.println(num);
 		}
-
+		
 		System.out.println();
 		System.out.println(" ---------   getting values from array using enhanced for loop --------- ");
-
-		boolean[] arrayOfBoolean = { true, true, false, true };
-
-		for (boolean boo : arrayOfBoolean) {
+		
+		boolean[] arrayOfBoolean= {true, true, false, true};
+		
+		for (boolean boo:arrayOfBoolean) {
 			System.out.println(boo);
 		}
-
+		
 	}
 }

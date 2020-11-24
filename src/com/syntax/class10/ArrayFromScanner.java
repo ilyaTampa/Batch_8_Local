@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ArrayFromScanner {
 
 	public static void main(String[] args) {
+
 		// let's ask user how many names he would like to store and then store those
 		// names
 		Scanner scan;
@@ -16,15 +17,15 @@ public class ArrayFromScanner {
 		size = scan.nextInt();
 
 		names = new String[size];
-		// we are storing values into an array
+		//we are storing values into an array
 		for (int i = 0; i < size; i++) {
 			System.out.println("Please enter any name");
 			names[i] = scan.next();
 		}
-
-		// we are retrieving values from an array
-		for (int i = 0; i < names.length; i++) {
-			System.out.print(names[i] + "  ");
+		
+		//we are retrieving values from an array
+		for (int i=0; i<names.length; i++) {
+			System.out.print(names[i] +"  ");
 		}
 
 	}

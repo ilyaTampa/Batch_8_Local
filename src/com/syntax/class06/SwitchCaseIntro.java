@@ -6,10 +6,9 @@ public class SwitchCaseIntro {
 
 	public static void main(String[] args) {
 
-		Scanner userIn = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a day number");
-
-		int day = userIn.nextInt();
+		int day = scan.nextInt();
 		String myDay;
 
 		if (day == 1) {
@@ -29,13 +28,13 @@ public class SwitchCaseIntro {
 		} else {
 			myDay = "Invalid Day";
 		}
-		System.out.println("Today is " + myDay);
 
-		System.out.println("---------------SAME EXAMPLE USING SWITCH CASE-------------------------------------");
-
+		System.out.println("Today is "+myDay);
+		
+		System.out.println("---- SAME EXAMPLE USING SWITCH CASE ----");
 		String today;
 
-		switch (day) {// data type of variable must match with datatype of cases
+		switch (day) {// datatype of variable must match with datatype of cases
 
 		case 1:
 			today = "Monday";
@@ -58,21 +57,11 @@ public class SwitchCaseIntro {
 		case 7:
 			today = "Sunday";
 			break;
-			
 		default:
 			today = "Invalid Day";
-			break;
-			// break --> is optional since it is a last statement in the switch block
+			//break --> is optional since it is a last statement in the switch block 
 		}
-		System.out.println("Today is " + today);
-		
-		boolean x = true;
-		boolean y = false;
-		if (x || y) {
-		System.out.println(true);
-		} else {
-		System.out.println(false);
-		}
-	}
 
+		System.out.println("Today is "+today);
+	}
 }

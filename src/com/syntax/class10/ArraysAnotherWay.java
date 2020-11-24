@@ -3,6 +3,7 @@ package com.syntax.class10;
 public class ArraysAnotherWay {
 
 	public static void main(String[] args) {
+
 		String[] names = { "Mike", "Burju", "Jack", "Danilo", "Bryan", "Evgeniya" };
 
 		// String[] name;
@@ -34,7 +35,7 @@ public class ArraysAnotherWay {
 //			System.out.println(names[i]);
 //		}
 
-		for (int i = 0; i <= names.length - 1; i++) {
+		for (int i = 0; i <= names.length-1; i++) {
 
 			System.out.println(names[i]);
 		}

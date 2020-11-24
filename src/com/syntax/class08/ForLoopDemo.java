@@ -3,36 +3,47 @@ package com.syntax.class08;
 public class ForLoopDemo {
 
 	public static void main(String[] args) {
+		System.out.println(" ---- Good Morning 5 times ---------------");
+		// I want to say Good Morning 5 times;
 
-		// i want to say Good Morning 5 times
 		/*
-		 * FOR SYNTAX
-		 * 
-		 * for (initialization; condition; increment/decrement{ code; }
+		 *  FOR SYNTAX
+		 *  
+		 *  for (initialization; condition; incerement/decrement){
+		 *  	code;
+		 *  }
 		 */
-
-		for (int i = 5; i <= 10; i++) {
+		for (int i=5; i<10; i++) {
 			System.out.println("Good Morning");
-
 		}
-// i want to print number 1 to 100
-
-		/*
-		 * FOR SYNTAX
+		
+		System.out.println(" ---- I want to print number 1 to 100 ---------------");
+		//I want to print number 1 to 100
+		
+		/* FOR SYNTAX
 		 * 
-		 * for (start point; end point; increment/ decrement) { code; }
+		 * for (start point; end point; increment/decrement) {
+		 * 		code;
+		 * }
 		 */
+		
+		for(int i=1; i<=100; i++) {
+			System.out.println(i);
+		}
 
-		for (int a = 1; a <= 100; a++) {
-			System.out.print(a + " ");
+		System.out.println(" ---- I want to print number 10 to 0 ---------------");
+		
+		for(int i=10; i>=0; i--) {
+			System.out.print(i+" ");
 		}
-		System.out.println("---------------------I want to print number 10 to 0----------------");
-
-		for (int b = 10; b >= 0; b--) {
-			System.out.print(b + " ");
+		
+		System.out.println();
+		System.out.println(" -------------  What will be the output? -------  ");
+		
+		for(int i=0; i<=30; i+=3) {
+			System.out.print(i+" ");
 		}
-		for (int i = 0; i <= 30; i += 3) {
-			System.out.print(i + " ");
-		}
+	
 	}
+
 }
