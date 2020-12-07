@@ -14,14 +14,12 @@ public class Main{
         webDriver1.findElement();
     }
 }
-
 interface WebDriver {
     void openBrowser();
     void closeBrowser();
     void maximizeWindow();
     void findElement();
 }
-
 class ChromeDriver implements WebDriver{
     @Override
     public void openBrowser() {
@@ -40,7 +38,6 @@ class ChromeDriver implements WebDriver{
         System.out.println("Code to find elements");
     }
 }
-
 class FirefoxDriver implements WebDriver{
     @Override
     public void openBrowser() {

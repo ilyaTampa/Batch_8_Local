@@ -17,7 +17,6 @@ public  class Dog {
     }
 
 }
-
 class Cockapoo extends Dog{
     void appearance(){
         System.out.println("I have long hairs");

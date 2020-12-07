@@ -13,21 +13,21 @@ public class ClassTask2 {
      */
 
 }
+ class CreditCard {
+    double balance;
+    double interest;
+    public  CreditCard(double balance, double interest) {
+        this.balance = balance;
+        this.interest = interest;
+    }
 
-class CreditCard {
-   double balance;
-   double interest;
-   public  CreditCard(double balance, double interest) {
-       this.balance = balance;
-       this.interest = interest;
-   }
-   //Breaktill 1:30
-     double  getInterest(){
-       return balance * interest;
-   }
-   public static void print(){
-       System.out.println("I am a static  in CreditCard method i belong to class and i don't need an object to be called");
-   }
+    //Breaktill 1:30
+      double  getInterest(){
+        return balance * interest;
+    }
+    public static void print(){
+        System.out.println("I am a static  in CreditCard method i belong to class and i don't need an object to be called");
+    }
 
 }
 class Visa extends CreditCard{

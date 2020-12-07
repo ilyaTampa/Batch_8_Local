@@ -24,7 +24,6 @@ public class Computer extends SmartMachine{
     }
 
 }
-
 class HP extends Computer{
 
     HP(String brand) {
@@ -46,24 +45,23 @@ class Lenovo extends  Computer{
         System.out.println(brand+" Can also be used as tablet");
     }
 }
+ class Apple extends Computer{
+    Apple(String brand) {
+        super(brand);
+    }
 
-class Apple extends Computer{
-   Apple(String brand) {
-       super(brand);
-   }
+    @Override
+    public void run() {
+        System.out.println("Runs faster");
+    }
 
-   @Override
-   public void run() {
-       System.out.println("Runs faster");
-   }
+    @Override
+    public void storage() {
+        System.out.println("Saves the data in a different way");
+    }
 
-   @Override
-   public void storage() {
-       System.out.println("Saves the data in a different way");
-   }
-
-   @Override
-   public void transfer() {
-       super.transfer();
-   }
+    @Override
+    public void transfer() {
+        super.transfer();
+    }
 }

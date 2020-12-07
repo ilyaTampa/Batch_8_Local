@@ -1,5 +1,6 @@
 package com.syntax.class07;
 
+import java.awt.font.NumericShaper;
 import java.util.Scanner;
 
 public class LuckyNumber {

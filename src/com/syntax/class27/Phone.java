@@ -16,28 +16,27 @@ public abstract class Phone {
     public abstract  void playMusic();
 
 }
+ class Iphone extends Phone{
 
-class Iphone extends Phone{
+    Iphone(){
+        System.out.println("Constructor from Iphone called ");
 
-   Iphone(){
-       System.out.println("Constructor from Iphone called ");
-
-   }
-   @Override
-   public void takePicture() {
-       System.out.println(" Can take good pictures in low light");
-   }
-
+    }
     @Override
-    public void playMusic() {
-        System.out.println("Iphone can play musing using Apple store");
+    public void takePicture() {
+        System.out.println(" Can take good pictures in low light");
     }
 
-    public void faceTime(){
-        System.out.println("I have faceTime for video calls");
-    }
+     @Override
+     public void playMusic() {
+         System.out.println("Iphone can play musing using Apple store");
+     }
 
-}
+     public void faceTime(){
+         System.out.println("I have faceTime for video calls");
+     }
+
+ }
 class Samsung extends Phone{
 
     Samsung(){

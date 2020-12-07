@@ -15,7 +15,6 @@ abstract public class Phone {
     public abstract void unlock();
 
 }
-
 abstract class Iphone extends Phone{
 
     @Override
@@ -32,7 +31,6 @@ class IphoneChild extends Iphone{
         System.out.println("Can unlock using face");
     }
 }
-
 class Samsung extends Phone{
 
     @Override
